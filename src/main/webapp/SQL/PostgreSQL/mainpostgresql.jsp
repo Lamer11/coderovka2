@@ -1,5 +1,5 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" 
-%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,37 +11,34 @@
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <!-- Подключаем свои стили-->
-<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../../style.css">
 
-<title>SAS Home</title>
+<title>PostgreSQL</title>
 </head>
-
 <body>
-  <jsp:include page="../header.html" />
-    
+	<jsp:include page="/header.html" />
+	
+
 <main role="main" class="container">
-  <div class="row">
+ <div class="row">
+  			<!-- Меню бар для баз данных -->
     <div class="col-md-8 blog-main" style="border-right: solid 1px red">
+	    <div class="nav-scroller mb-2 pb-2 border-bottom">
+		    <nav class="nav d-flex">
+		      <a class="p-2 text-muted" href="mainpostgresql.jsp">PostgreSQL</a>
+		      <a class="p-2 text-muted" href="#">MySQL</a>
+		      <a class="p-2 text-muted" href="#">SAS</a>
+		    </nav>
+	 	</div>
+    
       <h3 class="pb-3 mb-4 font-italic border-bottom">
-        SAS Page
+        PostgreSQL Page
       </h3>
-      <p>счётчик просмотров: (как только подключу базу данных, то тут будет выводиться цифра того, сколько раз посещали страницу)<%/*= count */%></p>
-    <p><img src="screenshots/logosasuni.png"></p>
-    <p>SAS® University Edition</p>
-    
-    <h1>Установка</h1>
-    
-    <p>1. Проходим по <a href="http://www.sas.com/en_us/software/university-edition/download-software.html">ссылке</a></p>
-    <p>И попадаем на страницу скачивания. Тут нам необходимо выбрать систему, на которую будем устанавливать.</p>
-    png image:
-    <p><img style="width:100%; height:100%;" src="screenshots/sasscreen1.png"></p>
-    jpeg image
-    <p><img style="width:100%; height:100%;" src="screenshots/sasscreen1.jpg"></p>
-    <p>Я выбираю <bold>Windows</bold>. Жмем и далее действуем по шагам.</p>
-    <p>2. Идем дальше</p>
-    <text>.. в общем нужно закончить статью :)</text>
-    
-    
+
+      	Тут будет все о базе данных PostgreSQL
+      	
+
+		<p><a href="installation.jsp">1. Установка PostgreSQL</a></p>
     </div><!-- /.blog-main -->
 
     <aside class="col-md-4 blog-sidebar">
@@ -83,5 +80,5 @@
 </main><!-- /.container -->
 
 
-<jsp:include page="../footer.html" />
+<jsp:include page="/footer.html" />
 </html>

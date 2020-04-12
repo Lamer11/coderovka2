@@ -21,7 +21,16 @@
 		
 <main role="main" class="container">
   <div class="row">
-    <div class="col-md-8 blog-main" style="border-right: solid 1px red">
+        <!-- Меню бар для баз данных -->
+        <div class="col-md-8 blog-main" style="border-right: solid 1px red">
+        <div class="nav-scroller mb-2 pb-2 border-bottom">
+        <nav class="nav d-flex">
+          <a class="p-2 text-muted" href="PostgreSQL/mainpostgresql.jsp">PostgreSQL</a>
+          <a class="p-2 text-muted" href="#">MySQL</a>
+          <a class="p-2 text-muted" href="#">SAS</a>
+        </nav>
+      </div>
+    
       <h3 class="pb-3 mb-4 font-italic border-bottom">
         SQL Page
       </h3>
