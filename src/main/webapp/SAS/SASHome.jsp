@@ -1,14 +1,18 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" 
+%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <!-- Required meta tags -->
 <meta charset="utf-8">
-<!-- Для обеспечения правильной визуализации и сенсорного масштабирования для всех устройств -->
+<!-- ÐÐ»Ñ Ð¾Ð±ÐµÑÐ¿ÐµÑÐµÐ½Ð¸Ñ Ð¿ÑÐ°Ð²Ð¸Ð»ÑÐ½Ð¾Ð¹ Ð²Ð¸Ð·ÑÐ°Ð»Ð¸Ð·Ð°ÑÐ¸Ð¸ Ð¸ ÑÐµÐ½ÑÐ¾ÑÐ½Ð¾Ð³Ð¾ Ð¼Ð°ÑÑÑÐ°Ð±Ð¸ÑÐ¾Ð²Ð°Ð½Ð¸Ñ Ð´Ð»Ñ Ð²ÑÐµÑ ÑÑÑÑÐ¾Ð¹ÑÑÐ² -->
+<!-- Привет -->
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<!-- Подключаем свои стили-->
+<!-- ÐÐ¾Ð´ÐºÐ»ÑÑÐ°ÐµÐ¼ ÑÐ²Ð¾Ð¸ ÑÑÐ¸Ð»Ð¸-->
 <link rel="stylesheet" href="../style.css">
 
 <title>SAS</title>
@@ -30,7 +34,13 @@
 		I made chanches
 		
 		And one more time
-		
+		g
+		dfdddd
+		ff
+		<br>
+		ss
+		русский
+    Хренусский
     </div><!-- /.blog-main -->
 
     <aside class="col-md-4 blog-sidebar">
@@ -74,7 +84,7 @@
 
 	<jsp:include page="../footer.html" />
 	
-<!-- Подключаем скрипты JavaScript прям перед закрывающимся тегом body. Так указано на сайте Bootstrap -->
+<!-- ÐÐ¾Ð´ÐºÐ»ÑÑÐ°ÐµÐ¼ ÑÐºÑÐ¸Ð¿ÑÑ JavaScript Ð¿ÑÑÐ¼ Ð¿ÐµÑÐµÐ´ Ð·Ð°ÐºÑÑÐ²Ð°ÑÑÐ¸Ð¼ÑÑ ÑÐµÐ³Ð¾Ð¼ body. Ð¢Ð°Ðº ÑÐºÐ°Ð·Ð°Ð½Ð¾ Ð½Ð° ÑÐ°Ð¹ÑÐµ Bootstrap -->
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
