@@ -104,3 +104,23 @@ h1, h2, h3, h4, h5, h6 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+
+/*
+ * Style for images
+ .image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto 30px auto;
+  border: 5px solid #fff;
+  box-shadow: 0 0 10px #9e9e9e;
+  border-radius: 4px;
+}
+
+ .image {
+  width: 100%; 
+  height: 100%;
+  box-shadow: 0 0 10px #9e9e9e;
+}
+*/
