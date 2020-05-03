@@ -27,8 +27,8 @@
       </h3>
 
       <p>Тут бы текст обо мне какой-нить.<br>
-      А пока пара фото в студи.. ээ.. на страницу!</p>
-      <p><img style="width:30%; height:30%; box-shadow: 0 0 10px #5900AC" src="myphotos/iam.jpg"></p>
+      И фото</p>
+      <!-- <p><img style="width:30%; height:30%; box-shadow: 0 0 10px #5900AC" src="myphotos/iam.jpg"></p> -->
       <p><img style="width:50%; height:50%; box-shadow: 0 0 10px #5900AC" src="myphotos/ilovejava.jpg"></p>
 
     </div><!-- /.blog-main -->
