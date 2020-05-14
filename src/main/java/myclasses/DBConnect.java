@@ -6,12 +6,12 @@ import java.net.URISyntaxException;
 
 public class DBConnect {
 
-		private static Connection getConnection() throws URISyntaxException, SQLException {
+		private static Connection getConnection() throws URISyntaxException, SQLException, ClassNotFoundException {
     	String dbUrl = System.getenv("JDBC_DATABASE_URL");
  	   	return DriverManager.getConnection(dbUrl);
 	}	
 
-	public void queryInsert(String namePage) throws SQLException, URISyntaxException{
+	public void queryInsert(String namePage) throws SQLException, URISyntaxException, ClassNotFoundException{
 			Connection connection = getConnection();
 			
 			if(connection != null) {
