@@ -1,6 +1,7 @@
 package myclasses;
 
 import java.sql.*;
+import java.net.URISyntaxException;
 
 
 public class DBConnect {
