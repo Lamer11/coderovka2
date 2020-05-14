@@ -1,3 +1,8 @@
+package myclasses;
+
+import java.sql.*;
+
+
 public class DBConnect {
 
 		private static Connection getConnection() throws URISyntaxException, SQLException {
