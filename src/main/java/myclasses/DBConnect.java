@@ -11,7 +11,7 @@ public class DBConnect {
  	   	return DriverManager.getConnection(dbUrl);
 	}	
 
-	public void queryInsert(String namePage) throws SQLException, ClassNotFoundException{
+	public void queryInsert(String namePage) throws SQLException, URISyntaxException{
 			Connection connection = getConnection();
 			
 			if(connection != null) {
