@@ -43,7 +43,7 @@
       <div class="p-4">
         <h4 class="font-italic">Статьи</h4>
         <ol class="list-unstyled mb-0">
-          <li><a href="/Java/Apache Camel/Работа с zip и xml/WorkWithZipAndXML.jsp">Работа с zip и xml файлами</a></li>
+          <li><a href="/Java/ApacheCamel/WorkWithZipAndXML/WorkWithZipAndXML.jsp">Работа с zip и xml файлами</a></li>
         </ol>
       </div>
 
