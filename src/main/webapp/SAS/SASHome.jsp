@@ -1,5 +1,4 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" 
-    import="myclasses.DBConnect"
 %>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,9 +16,6 @@
 <title>SAS Home</title>
 </head>
 
-<% DBConnect connect = new DBConnect();
-  connect.queryInsert("SAS Home");
-%>
 
 
 <body>

@@ -6,6 +6,10 @@ import java.net.URISyntaxException;
 
 public class DBConnect {
 
+
+	//public int num = 10;
+
+/*
 		private static Connection getConnection() throws URISyntaxException, SQLException, ClassNotFoundException {
     	String dbUrl = System.getenv("JDBC_DATABASE_URL");
  	   	return DriverManager.getConnection(dbUrl);
@@ -26,5 +30,5 @@ public class DBConnect {
 		}
 
 
-
+*/
 }
