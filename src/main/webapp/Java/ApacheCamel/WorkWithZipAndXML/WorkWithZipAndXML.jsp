@@ -31,12 +31,13 @@
     прогнать через маршрут, распаковать и сохранить распакованный файл в другую папку.</p>
     <p>Для этого сценария будут использоваться:</p>
     <ul>
-      <li><strong><font color="#5900AC">zazipovano.zip</font></strong> - архив, в котором запакован <strong><font color="#5900AC">semelyanov.xml</font></strong> фай</li>
-      <li>Путь к папке, где находится архив <strong><font color="#5900AC">C:/Users/Sergey/Desktop/Camel/zips</font></strong></li>
-      <li>Путь к папке, куда мы архив будем перемещать/распаковывать/еще что-либо делать: 
+      <li><strong><font color="#5900AC">zazipovano.zip</font></strong> - архив, в котором запакован <strong><font color="#5900AC">semelyanov.xml</font></strong> файл</li>
+      <li>Путь к папке (А), где находится архив <strong><font color="#5900AC">C:/Users/Sergey/Desktop/Camel/zips</font></strong></li>
+      <li>Путь к папке (Б), куда архив будет перемещен/распакован/другое: 
       <strong><font color="#5900AC">C:/Users/Sergey/Desktop/Camel/unzips</font></strong></li>
     </ul>
-    <p>Названия путей здесь приводятся для того, чтобы наглядно видеть в Java коде кто за что отвечает.</p>
+    <p>Названия путей приводятся для того, чтобы наглядно видеть в Java коде кто за что отвечает.<br>
+    Дополнительное наименование папок с файлами как А и Б для удобства далее по тексту.</p>
     <p>Содержимое файла .xml следующее:<br>
     <div style="border: solid 1px; box-shadow: 0 0 7px #5900AC;">
     <pre><code>&lt;persone&gt;
@@ -44,9 +45,20 @@
     &lt;lastname&gt;Emelyanov&lt;/lastname&gt;
     &lt;old&gt;34&lt;/old&gt;
 &lt;/persone&gt;
-    </code></pre></p></div>
+    </code></pre></p></div><br>
 
-    <p>Для примера столь простое содержание файла вполне сойдет.</p>
+    <p>1. Копировать архив из одной папки в другую</p>
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">from(<span class="hljs-string" style="color: rgb(136, 0, 0);">"file://C:/Users/Sergey/Desktop/Camel/zips/?noop=true"</span>)
+.to(<span class="hljs-string" style="color: rgb(136, 0, 0);">"file://C:/Users/Sergey/Desktop/Camel/unzips/"</span>);</pre>
+    <p>Это операция именно копирует файл из папки А в папку будет Б.<br>
+      За это отвечает опция
+      <span class="hljs-string" style="color: rgb(136, 0, 0);">?noop=true</span>, которая указывает Camel'у оставить файл в папке А как есть.
+      Для того, чтобы переместить файл, то данную опцию не нужно указывать. То есть так:
+      <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">from(<span class="hljs-string" style="color: rgb(136, 0, 0);">"file://C:/Users/Sergey/Desktop/Camel/zips/"</span>)
+.to(<span class="hljs-string" style="color: rgb(136, 0, 0);">"file://C:/Users/Sergey/Desktop/Camel/unzips/"</span>);</pre>
+      но при этому в папке А автоматически создается каталог <strong>.camel</strong>, в которой перемещаемый файл будет находится. Эту тему изучим и опишим чуть позже.<br>
+      Еще раз. В первом случае идет копирование файла, а во втором перемещение из А в Б, но при этому в А создается каталог .camel, в котором присутствует перемещаемый файл.
+    </p>
 
 
 	
