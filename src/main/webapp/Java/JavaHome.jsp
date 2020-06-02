@@ -26,7 +26,8 @@
         Создание сайта
       </h3>
 
-        Начинаем цикл статей о том как создать сайт (или web-приложение) из ничего и разместить его на облачной PaaS-платформе Heroku.
+        <p>Начинаем цикл статей о том как создать сайт (или web-приложение) из ничего и разместить его на облачной PaaS-платформе Heroku.</p>
+
 		
     </div><!-- /.blog-main -->
 
@@ -39,11 +40,14 @@
       <div class="p-4">
         <h4 class="font-italic">Статьи</h4>
         <ol class="list-unstyled mb-0">
-          <li><a href="#">1. Создание Maven проекта</a></li>
+          <li><a href="#" style="color: gray">1. Создание Maven проекта</a></li> <!-- style="color: gray" даем тем ссылкам, которые еще не работают-->
           <li><a href="/Java/CreatingSite/WorkWithEclipse/WorkWithEclipse.jsp">2. Работа с проектом в Eclipse</a></li>
+          <li><a href="/Java/CreatingSite/adressinuse/adressalreadyinuse.jsp">3. Как убить существующий процесс</a></li>
         </ol>
       </div>
 
+
+      <!--
       <div class="p-4">
         <h4 class="font-italic">Elsewhere</h4>
         <ol class="list-unstyled">
@@ -52,7 +56,8 @@
           <li><a href="#">Facebook</a></li>
         </ol>
       </div>
-    </aside><!-- /.blog-sidebar -->
+    </aside>--><!-- /.blog-sidebar -->
+
 
   </div><!-- /.row -->
 

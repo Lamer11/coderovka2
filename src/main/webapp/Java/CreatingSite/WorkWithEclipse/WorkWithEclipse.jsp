@@ -42,17 +42,17 @@
             -->
             <p><strong>1.</strong> Открываем Eclipse.<br>
                Как установить Eclipse и первоначально настроить - будет в другой статье. Пока этой статьи нет, то можно воспользваться другими ресурсами, которых привеликое множество в интернете.</p>
-
+            <br>
             <p><strong>2.</strong><strong><font color="#5900AC"> File -> Open Projects from File Systems</font></strong><br> 
               В графе <strong><font color="#5900AC">Import source</font></strong> через кнопку <strong><font color="#5900AC">Directory…</font></strong> выбираем свой проект и жмем <strong><font color="#5900AC">Finish</font></strong>. Проект появляется в <strong>Project Explorer</strong>.</p>
-
+            <br>
             <p><strong>3.</strong> В <strong>Project Explorer</strong> нажимаем правой кнопкой мыши по проекту, чтобы вызвать контекстное меню и далее выбираем:<br> 
             <strong><font color="#5900AC">Run As</font></strong> -> <strong><font color="#5900AC">Run Configuration…</font></strong> как на картинке</p>  
             <p><img style="width:100%; height:100%; box-shadow: 0 0 10px #5900AC" src="screenshots/run_configurations_1.png"></p>
-
+            <br>
             <p><strong>4.</strong> В появившемся окне настроек находим  <strong><font color="#5900AC">Maven Build</font></strong> и правой кнопкой мыши в контекстном меню жмем на <strong><font color="#5900AC">New Configuration</font></strong></p>
             <p><img style="width:100%; height:100%; box-shadow: 0 0 10px #5900AC" src="screenshots/maven_build_2.png"></p>
-
+            <br>
             <p><strong>5.</strong> Таким образом создается New_configuration</p>
             <p><img style="width:100%; height:100%; box-shadow: 0 0 10px #5900AC" src="screenshots/missing_configuration_3.png"></p>
             <p>Пройдемся по каждому пункту:<br>
@@ -65,9 +65,27 @@
              <br>
              В конечном итоге получаем окно с такими настройками:
              <p><img style="width:100%; height:100%; box-shadow: 0 0 10px #5900AC" src="screenshots/configuration_id_done_5.png"></p>
-             Нажимаем <stront>Apply</stront> и <strong>Run</strong>
+             Нажимаем <strong>Apply</strong> и <strong>Run</strong>.</p>
 
-            </p>
+             <br>
+             <p><strong>6.</strong> В консольке Eclipse’a видим, что что-то происходит и в конце видим красным:</p>
+             <p><img style="width:100%; height:100%; box-shadow: 0 0 10px #5900AC" src="screenshots/consolka_6.png"></p>
+             <p>Последняя строчка говорит нам, что сайтик запустился на локальном хосте 8080.
+                Идем в браузер и вводим <strong><font color="#5900AC">http://localhost:8080/manualmaven/</font></strong> и видим свой сайт.</p>
+
+             <p>Чтобы вырубить сайт и чтобы он прекратил крутится на локальном хосте, то нажимаем кнопку <strong>Terminate</strong>:</p>
+             <p><img style="width:100%; height:100%; box-shadow: 0 0 10px #5900AC" src="screenshots/terminate_concole_7.png"></p>
+
+             <br>
+             <p><strong>7.</strong> Всё, первоначальные настройки сделаны. Теперь <strong>а)</strong> если создаем новый Java класс, то необходимо пересобирать проект, но уже достаточно просто это будет делаться, так как все настройки уже есть. Итак, если нужно пересобрать проект, то в инструментах есть зеленая кнопка запуска. Нам необходимо нажать на выпадающий список рядом с ней, выбрать наш проект и запустить:
+             <p><img style="box-shadow: 0 0 10px #5900AC" src="screenshots/run_maven_second_8.png"></p>
+
+             <strong>б)</strong> если необходимо сделать изменения в разметке страниц, то пересобирать проект не нужно. В таком случа просто сохраняем изменения как есть и обновляем страницу (если она запущена). 
+             </p>
+
+             <br>
+             <p>На этом всё.</p>
+
 
 
 
@@ -88,6 +106,7 @@
         <ol class="list-unstyled mb-0">
           <li><a href="#">1. Создание Maven проекта</a></li>
           <li><a href="/Java/CreatingSite/WorkWithEclipse/WorkWithEclipse.jsp">2. Работа с проектом в Eclipse</a></li>
+          <li><a href="/Java/CreatingSite/adressinuse/adressalreadyinuse.jsp">3. Как убить существующий процесс</a></li>
         </ol>
       </div>
 
