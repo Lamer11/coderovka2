@@ -27,7 +27,7 @@
       </h3>
 
       <div class="blog-post">
-        <h2 class="blog-post-title">Про что сайт</h2>
+        <h2 class="blog-post-title">Про что сайт 11</h2>
         <p class="blog-post-meta">March 13, 2020 by <a href="/aboutme.jsp">Sergey Emelyanov</a></p>
         <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
         <hr>
