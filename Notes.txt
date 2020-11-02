@@ -1,4 +1,0 @@
-Heroku
-
-1. Как в CLI при создении приложения выбрать сразу регион 
-	heroku create --region eu nameapp
