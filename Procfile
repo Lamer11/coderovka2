@@ -1,1 +1,1 @@
-web: java -jar target/coderovka3manualy-0.0.1-SNAPSHOT.jar
+web: java -jar target/coderovka-0.0.1-SNAPSHOT.jar

@@ -8,10 +8,10 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>ru.coderovka3manualy</groupId>
-	<artifactId>coderovka3manualy</artifactId>
+	<groupId>ru.coderovka</groupId>
+	<artifactId>coderovka</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>coderovka3manualy</name>
+	<name>coderovka</name>
 	<description>Remake site with Spring</description>
 
 	<properties>
