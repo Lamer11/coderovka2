@@ -1,0 +1,35 @@
+<div th:fragment="header">
+  <div class="container"> 
+
+	<!-- Заголовок -->
+	<header class="blog-header py-3">
+	    <div class="row flex-nowrap justify-content-between align-items-center">
+	      <div class="col-8">
+	        <a class="blog-header-logo" style="color: #5900AC" title="Сайт Федора Кодикова (подпольная кличка Федька-кодировщик)" href="/">
+	        	coderovka.ru
+	    	</a>
+	      </div>
+	      <div class="col-4 d-flex justify-content-end align-items-center">
+	        <a class="text-muted" href="#" aria-label="Search" onclick="doNotWorkSearch()">
+	          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+	        </a>
+	        <!--   <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a> -->
+	        <a class="btn btn-sm btn-outline-secondary" data-toggle="tooltip" data-placement="right" title="Пока не работает" onclick="doNotWorkAlert()">Sign up</a>
+	      </div>
+	    </div>
+	</header>
+	
+	 <div class="nav-scroller mb-2 pb-2 border-bottom">
+	   <nav class="nav d-flex justify-content-between">
+	     <a class="p-2 text-muted" href="/">Home</a>
+	     <a class="p-2 text-muted" href="/JavaPage/JavaHome">Java</a>
+	     <a class="p-2 text-muted" href="/Android/AndroidHome">Android</a>
+	     <a class="p-2 text-muted" href="/SQL/SQLHome">SQL</a>
+	     <a class="p-2 text-muted" href="/SAS/SASHome">SAS</a>
+	     <a class="p-2 text-muted" href="/JavaPage/ApacheCamel/ApacheCamelHome">Apache Camel</a>
+	     <a class="p-2 text-muted" href="/English/EnglishHome">English</a>
+	     <a class="p-2 text-muted" href="/Others/OthersHome">Other</a>
+	   </nav>
+	 </div>
+	</div>
+</div>
